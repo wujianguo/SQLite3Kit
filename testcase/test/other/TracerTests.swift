@@ -19,7 +19,7 @@
  */
 
 import XCTest
-import WCDBSwift
+import SQLite3Kit
 
 class TracerTests: BaseTestCase {
 
@@ -74,7 +74,7 @@ class TracerTests: BaseTestCase {
 
         //Then
         var `catch` = false
-        Database.globalTrace { (error: WCDBSwift.Error) in
+        Database.globalTrace { (error: SQLite3Kit.Error) in
             if error.type == .sqlite {
                 let tag = error.tag
                 XCTAssertNotNil(tag)

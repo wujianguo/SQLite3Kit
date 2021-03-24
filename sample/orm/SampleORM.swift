@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
-import WCDBSwift
+import SQLite3Kit
 
 enum SampleORMType: Int, ColumnCodable {
     case type1 = 1

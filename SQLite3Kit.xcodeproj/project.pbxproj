@@ -45,7 +45,7 @@
 		237931C51FD52CB4003BBA5F /* TableCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237931C41FD52CB4003BBA5F /* TableCodable.swift */; };
 		237931C81FD538F8003BBA5F /* ColumnCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237931C71FD538F8003BBA5F /* ColumnCodable.swift */; };
 		237931CB1FD547CC003BBA5F /* CodingTableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237931CA1FD547CC003BBA5F /* CodingTableKey.swift */; };
-		23794DB41FAB23AD001E79DE /* WCDB-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 23794DB31FAB23AD001E79DE /* WCDB-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23794DB41FAB23AD001E79DE /* SQLite3Kit-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 23794DB31FAB23AD001E79DE /* SQLite3Kit-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		238D0B771FAB1F7E00BC2659 /* Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238D0B131FAB1F7E00BC2659 /* Column.swift */; };
 		238D0B781FAB1F7E00BC2659 /* ColumnDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238D0B141FAB1F7E00BC2659 /* ColumnDef.swift */; };
 		238D0B791FAB1F7E00BC2659 /* ColumnIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238D0B151FAB1F7E00BC2659 /* ColumnIndex.swift */; };
@@ -182,8 +182,8 @@
 		237931C41FD52CB4003BBA5F /* TableCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCodable.swift; sourceTree = "<group>"; };
 		237931C71FD538F8003BBA5F /* ColumnCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnCodable.swift; sourceTree = "<group>"; };
 		237931CA1FD547CC003BBA5F /* CodingTableKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingTableKey.swift; sourceTree = "<group>"; };
-		23794DB31FAB23AD001E79DE /* WCDB-Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WCDB-Bridging.h"; sourceTree = "<group>"; };
-		238D0B031FAB1F4300BC2659 /* WCDBSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WCDBSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23794DB31FAB23AD001E79DE /* SQLite3Kit-Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SQLite3Kit-Bridging.h"; sourceTree = "<group>"; };
+		238D0B031FAB1F4300BC2659 /* SQLite3Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite3Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		238D0B0F1FAB1F7E00BC2659 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		238D0B131FAB1F7E00BC2659 /* Column.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Column.swift; sourceTree = "<group>"; };
 		238D0B141FAB1F7E00BC2659 /* ColumnDef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnDef.swift; sourceTree = "<group>"; };
@@ -370,7 +370,7 @@
 		238D0B041FAB1F4300BC2659 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				238D0B031FAB1F4300BC2659 /* WCDBSwift.framework */,
+				238D0B031FAB1F4300BC2659 /* SQLite3Kit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -452,7 +452,7 @@
 			isa = PBXGroup;
 			children = (
 				230209C11FBEE431000D69B6 /* Optional.swift */,
-				23794DB31FAB23AD001E79DE /* WCDB-Bridging.h */,
+				23794DB31FAB23AD001E79DE /* SQLite3Kit-Bridging.h */,
 				238D0B681FAB1F7E00BC2659 /* Atomic.swift */,
 				238D0B691FAB1F7E00BC2659 /* ConcurrentList.swift */,
 				238D0B6A1FAB1F7E00BC2659 /* Error.swift */,
@@ -496,16 +496,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				238D0BCD1FAB1F7E00BC2659 /* SQLite-Bridging.h in Headers */,
-				23794DB41FAB23AD001E79DE /* WCDB-Bridging.h in Headers */,
+				23794DB41FAB23AD001E79DE /* SQLite3Kit-Bridging.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		238D0B021FAB1F4300BC2659 /* WCDB.swift */ = {
+		238D0B021FAB1F4300BC2659 /* SQLite3Kit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 238D0B0B1FAB1F4300BC2659 /* Build configuration list for PBXNativeTarget "WCDB.swift" */;
+			buildConfigurationList = 238D0B0B1FAB1F4300BC2659 /* Build configuration list for PBXNativeTarget "SQLite3Kit" */;
 			buildPhases = (
 				238D0AFE1FAB1F4300BC2659 /* Sources */,
 				238D0AFF1FAB1F4300BC2659 /* Frameworks */,
@@ -518,9 +518,9 @@
 				23AC5C80213531FA0087C004 /* PBXTargetDependency */,
 				23AC5C82213531FA0087C004 /* PBXTargetDependency */,
 			);
-			name = WCDB.swift;
-			productName = WCDB;
-			productReference = 238D0B031FAB1F4300BC2659 /* WCDBSwift.framework */;
+			name = SQLite3Kit;
+			productName = SQLite3Kit;
+			productReference = 238D0B031FAB1F4300BC2659 /* SQLite3Kit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -539,7 +539,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 238D0AFD1FAB1F4300BC2659 /* Build configuration list for PBXProject "WCDB.swift" */;
+			buildConfigurationList = 238D0AFD1FAB1F4300BC2659 /* Build configuration list for PBXProject "SQLite3Kit" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -561,7 +561,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				238D0B021FAB1F4300BC2659 /* WCDB.swift */,
+				238D0B021FAB1F4300BC2659 /* SQLite3Kit */,
 			);
 		};
 /* End PBXProject section */
@@ -892,12 +892,12 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Tencent.WCDB.swift;
-				PRODUCT_NAME = WCDBSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.SQLite3Kit;
+				PRODUCT_NAME = SQLite3Kit;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				STRIP_STYLE = debugging;
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/source/util/WCDB-Bridging.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/source/util/SQLite3Kit-Bridging.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -919,11 +919,11 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Tencent.WCDB.swift;
-				PRODUCT_NAME = WCDBSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.SQLite3Kit;
+				PRODUCT_NAME = SQLite3Kit;
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/source/util/WCDB-Bridging.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/source/util/SQLite3Kit-Bridging.h";
 			};
 			name = Release;
 		};
@@ -1022,18 +1022,18 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Tencent.WCDB.swift;
-				PRODUCT_NAME = WCDBSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.SQLite3Kit;
+				PRODUCT_NAME = SQLite3Kit;
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/source/util/WCDB-Bridging.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/source/util/SQLite3Kit-Bridging.h";
 			};
 			name = WithoutBitcode;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		238D0AFD1FAB1F4300BC2659 /* Build configuration list for PBXProject "WCDB.swift" */ = {
+		238D0AFD1FAB1F4300BC2659 /* Build configuration list for PBXProject "SQLite3Kit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				238D0B091FAB1F4300BC2659 /* Debug */,
@@ -1043,7 +1043,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		238D0B0B1FAB1F4300BC2659 /* Build configuration list for PBXNativeTarget "WCDB.swift" */ = {
+		238D0B0B1FAB1F4300BC2659 /* Build configuration list for PBXNativeTarget "SQLite3Kit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				238D0B0C1FAB1F4300BC2659 /* Debug */,

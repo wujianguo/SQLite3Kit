@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "238D0B021FAB1F4300BC2659"
-               BuildableName = "WCDBSwift.framework"
-               BlueprintName = "WCDB.swift"
-               ReferencedContainer = "container:WCDB.swift.xcodeproj">
+               BuildableName = "SQLite3Kit.framework"
+               BlueprintName = "SQLite3Kit"
+               ReferencedContainer = "container:SQLite3Kit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "238D0B021FAB1F4300BC2659"
-            BuildableName = "WCDBSwift.framework"
-            BlueprintName = "WCDB.swift"
-            ReferencedContainer = "container:WCDB.swift.xcodeproj">
+            BuildableName = "SQLite3Kit.framework"
+            BlueprintName = "SQLite3Kit"
+            ReferencedContainer = "container:SQLite3Kit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "238D0B021FAB1F4300BC2659"
-            BuildableName = "WCDBSwift.framework"
-            BlueprintName = "WCDB.swift"
-            ReferencedContainer = "container:WCDB.swift.xcodeproj">
+            BuildableName = "SQLite3Kit.framework"
+            BlueprintName = "SQLite3Kit"
+            ReferencedContainer = "container:SQLite3Kit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -84,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "238D0B021FAB1F4300BC2659"
-            BuildableName = "WCDBSwift.framework"
-            BlueprintName = "WCDB.swift"
-            ReferencedContainer = "container:WCDB.swift.xcodeproj">
+            BuildableName = "SQLite3Kit.framework"
+            BlueprintName = "SQLite3Kit"
+            ReferencedContainer = "container:SQLite3Kit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

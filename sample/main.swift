@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDBSwift
+import SQLite3Kit
 
 let machPath = CommandLine.arguments.first!
 let baseDirectory = URL(fileURLWithPath: machPath).deletingLastPathComponent().appendingPathComponent("SampleDB").path

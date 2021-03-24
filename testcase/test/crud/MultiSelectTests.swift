@@ -19,7 +19,7 @@
  */
 
 import XCTest
-import WCDBSwift
+import SQLite3Kit
 
 extension Dictionary where Key==String, Value: CRUDObjectBase {
     static func == (lhs: [Key: Value], rhs: [Key: Value]) -> Bool {

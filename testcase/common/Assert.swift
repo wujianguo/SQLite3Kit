@@ -19,7 +19,7 @@
  */
 
 import XCTest
-import WCDBSwift
+import SQLite3Kit
 
 func XCTAssertEqual(_ expression1: @autoclosure () -> String,
                     _ expression2: @autoclosure () -> String,
@@ -94,7 +94,7 @@ func WCDBAssertNoThrowReturned<T>(_ expression: @autoclosure () throws -> T,
                                   whenFailed failedValue: @autoclosure () -> T) -> T {
     do {
         return try expression()
-    } catch let error as WCDBSwift.Error {
+    } catch let error as SQLite3Kit.Error {
         XCTFail(error.description)
     } catch {
         XCTFail(error.localizedDescription)
@@ -107,7 +107,7 @@ func WCDBAssertNoThrowReturned<T>(_ expression: @autoclosure () throws -> T,
                                   line: UInt = #line) -> T? {
     do {
         return try expression()
-    } catch let error as WCDBSwift.Error {
+    } catch let error as SQLite3Kit.Error {
         XCTFail(error.description)
     } catch {
         XCTFail(error.localizedDescription)

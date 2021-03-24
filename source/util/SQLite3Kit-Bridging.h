@@ -18,5 +18,5 @@
  * limitations under the License.
  */
 
-#import <WCDBSwift/SQLite-Bridging.h>
+#import <SQLite3Kit/SQLite-Bridging.h>
 #import <sqliterk/SQLiteRepairKit.h>

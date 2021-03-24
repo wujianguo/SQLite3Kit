@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDBSwift
+import SQLite3Kit
 
 class BenchmarkObject: TableCodable, Named {
     var key: Int = 0
