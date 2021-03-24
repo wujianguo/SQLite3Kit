@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDBSwift
+import SQLite3Kit
 
 class CRUDObjectBase: Named, Hashable, Comparable, CustomDebugStringConvertible {
     var hashValue: Int {

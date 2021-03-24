@@ -19,7 +19,7 @@
  */
 
 import XCTest
-import WCDBSwift
+import SQLite3Kit
 
 class FileTests: BaseTestCase {
     var database: Database!

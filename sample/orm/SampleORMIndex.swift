@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
-import WCDBSwift
+import SQLite3Kit
 
 class SampleORMIndex: TableCodable {
     var indexProperty: Int?

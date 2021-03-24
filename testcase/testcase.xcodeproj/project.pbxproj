@@ -87,8 +87,8 @@
 		23516C641FD0340500B465DD /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235169EE1FCEE65F00B465DD /* BaseTestCase.swift */; };
 		23516C651FD0340500B465DD /* Assert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2310C5FB1FCBB5D40030F3D3 /* Assert.swift */; };
 		23516C661FD0340500B465DD /* Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235169B21FCEE28E00B465DD /* Convenience.swift */; };
-		23B996DF1FDAB57400B0AF2E /* WCDBSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B996D91FDAB52200B0AF2E /* WCDBSwift.framework */; };
-		23B996EE1FDAB59700B0AF2E /* WCDBSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B996D91FDAB52200B0AF2E /* WCDBSwift.framework */; };
+		23B996DF1FDAB57400B0AF2E /* SQLite3Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B996D91FDAB52200B0AF2E /* SQLite3Kit.framework */; };
+		23B996EE1FDAB59700B0AF2E /* SQLite3Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B996D91FDAB52200B0AF2E /* SQLite3Kit.framework */; };
 		23C78C111FE1502C00E64D75 /* MultithreadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C78C101FE1502C00E64D75 /* MultithreadTests.swift */; };
 		23C8E0001FD7FB1800DAE97D /* TypedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C8DFFF1FD7FB1700DAE97D /* TypedTests.swift */; };
 /* End PBXBuildFile section */
@@ -96,24 +96,24 @@
 /* Begin PBXContainerItemProxy section */
 		23B996D81FDAB52200B0AF2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 23B996D31FDAB52200B0AF2E /* WCDB.swift.xcodeproj */;
+			containerPortal = 23B996D31FDAB52200B0AF2E /* SQLite3Kit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 238D0B031FAB1F4300BC2659;
-			remoteInfo = WCDB.swift;
+			remoteInfo = SQLite3Kit;
 		};
 		23B996DD1FDAB57200B0AF2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 23B996D31FDAB52200B0AF2E /* WCDB.swift.xcodeproj */;
+			containerPortal = 23B996D31FDAB52200B0AF2E /* SQLite3Kit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 238D0B021FAB1F4300BC2659;
-			remoteInfo = WCDB.swift;
+			remoteInfo = SQLite3Kit;
 		};
 		23B996EC1FDAB59400B0AF2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 23B996D31FDAB52200B0AF2E /* WCDB.swift.xcodeproj */;
+			containerPortal = 23B996D31FDAB52200B0AF2E /* SQLite3Kit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 238D0B021FAB1F4300BC2659;
-			remoteInfo = WCDB.swift;
+			remoteInfo = SQLite3Kit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -197,7 +197,7 @@
 		23516BA31FCFE8E700B465DD /* BaseMultithreadBenchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMultithreadBenchmark.swift; sourceTree = "<group>"; };
 		23516BE01FD033A900B465DD /* All Testcases.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "All Testcases.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23516C121FD033B700B465DD /* All Benchmarks.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "All Benchmarks.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23B996D31FDAB52200B0AF2E /* WCDB.swift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WCDB.swift.xcodeproj; path = ../WCDB.swift.xcodeproj; sourceTree = "<group>"; };
+		23B996D31FDAB52200B0AF2E /* SQLite3Kit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite3Kit.xcodeproj; path = ../SQLite3Kit.xcodeproj; sourceTree = "<group>"; };
 		23C78C101FE1502C00E64D75 /* MultithreadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultithreadTests.swift; sourceTree = "<group>"; };
 		23C8DFFF1FD7FB1700DAE97D /* TypedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypedTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -207,7 +207,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23B996DF1FDAB57400B0AF2E /* WCDBSwift.framework in Frameworks */,
+				23B996DF1FDAB57400B0AF2E /* SQLite3Kit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +215,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23B996EE1FDAB59700B0AF2E /* WCDBSwift.framework in Frameworks */,
+				23B996EE1FDAB59700B0AF2E /* SQLite3Kit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +404,7 @@
 		23B996D41FDAB52200B0AF2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23B996D91FDAB52200B0AF2E /* WCDBSwift.framework */,
+				23B996D91FDAB52200B0AF2E /* SQLite3Kit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -412,7 +412,7 @@
 		23E9E01E1FC4132D005DE71C = {
 			isa = PBXGroup;
 			children = (
-				23B996D31FDAB52200B0AF2E /* WCDB.swift.xcodeproj */,
+				23B996D31FDAB52200B0AF2E /* SQLite3Kit.xcodeproj */,
 				23516A3B1FCEE7CF00B465DD /* benchmark */,
 				235169FB1FCEE7CF00B465DD /* test */,
 				2310C5FA1FCBB5D40030F3D3 /* common */,
@@ -500,7 +500,7 @@
 			projectReferences = (
 				{
 					ProductGroup = 23B996D41FDAB52200B0AF2E /* Products */;
-					ProjectRef = 23B996D31FDAB52200B0AF2E /* WCDB.swift.xcodeproj */;
+					ProjectRef = 23B996D31FDAB52200B0AF2E /* SQLite3Kit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -512,10 +512,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		23B996D91FDAB52200B0AF2E /* WCDBSwift.framework */ = {
+		23B996D91FDAB52200B0AF2E /* SQLite3Kit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = WCDBSwift.framework;
+			path = SQLite3Kit.framework;
 			remoteRef = 23B996D81FDAB52200B0AF2E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -640,12 +640,12 @@
 /* Begin PBXTargetDependency section */
 		23B996DE1FDAB57200B0AF2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = WCDB.swift;
+			name = SQLite3Kit;
 			targetProxy = 23B996DD1FDAB57200B0AF2E /* PBXContainerItemProxy */;
 		};
 		23B996ED1FDAB59400B0AF2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = WCDB.swift;
+			name = SQLite3Kit;
 			targetProxy = 23B996EC1FDAB59400B0AF2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */

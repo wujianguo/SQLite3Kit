@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDBSwift
+import SQLite3Kit
 
 class SampleConvenient: TableCodable {
     var intValue: Int?

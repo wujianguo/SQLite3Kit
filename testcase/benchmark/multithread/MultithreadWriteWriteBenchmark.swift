@@ -19,7 +19,7 @@
  */
 
 import XCTest
-import WCDBSwift
+import SQLite3Kit
 
 class MultithreadWriteWriteBenchmark: BaseMultithreadBenchmark {
 
@@ -43,7 +43,7 @@ class MultithreadWriteWriteBenchmark: BaseMultithreadBenchmark {
             queue.async(group: group, execute: {
                 do {
                     try self.database.insert(objects: self.objects, intoTable: tableName)
-                } catch let error as WCDBSwift.Error {
+                } catch let error as SQLite3Kit.Error {
                     XCTFail(error.description)
                 } catch let error {
                     XCTFail(error.localizedDescription)
@@ -52,7 +52,7 @@ class MultithreadWriteWriteBenchmark: BaseMultithreadBenchmark {
             queue.async(group: group, execute: {
                 do {
                     try self.database.insert(objects: self.objects, intoTable: tableName)
-                } catch let error as WCDBSwift.Error {
+                } catch let error as SQLite3Kit.Error {
                     XCTFail(error.description)
                 } catch let error {
                     XCTFail(error.localizedDescription)

@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDBSwift
+import SQLite3Kit
 
 func sample_transaction_main(baseDirectory: String) {
     print("Sample-transaction Begin")

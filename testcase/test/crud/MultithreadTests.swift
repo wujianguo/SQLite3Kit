@@ -19,7 +19,7 @@
  */
 
 import XCTest
-import WCDBSwift
+import SQLite3Kit
 
 func tick(_ block: () -> Void) -> TimeInterval {
     let before: TimeInterval = ProcessInfo.processInfo.systemUptime

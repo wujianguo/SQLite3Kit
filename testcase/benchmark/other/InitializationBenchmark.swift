@@ -19,7 +19,7 @@
  */
 
 import XCTest
-import WCDBSwift
+import SQLite3Kit
 
 class InitializationBenchmark: BaseBenchmark {
 
